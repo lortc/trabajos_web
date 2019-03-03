@@ -60,23 +60,24 @@
      flex-direction: column;
    }
 }
-ul.lista_1 {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
 }
-ul.lista_1 li a {
+ul li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
-ul.lista_1 li a:hover {
+ul li a:hover {
   background-color: #555;
   color: white;
 }
+
 blockquote {
   background: #009efa;
   border-left: 10px solid rgb(20, 92, 121);

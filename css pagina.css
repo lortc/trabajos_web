@@ -69,7 +69,7 @@ ul{
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: rgba(255, 237, 196, 0.856);
+  background-color: rgba(255, 237, 196, 0);
 }
 
 ul li a {
@@ -176,16 +176,16 @@ table
 
 tr:nth-of-type(odd)
 { 
-		background: #eee; 
+		background: rgb(255, 233, 233); 
 }
 tr:nth-of-type(even)
 { 
-		background: whitesmoke; 
+		background: rgb(255, 226, 226); 
 }
 
 th 
 { 
-		background: #333; 
+		background: rgba(248, 35, 35, 0.623); 
 		color: white; 
 		font-weight: bold; 
 }
@@ -209,7 +209,7 @@ audio{
 /*LINKS*/
 
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 a:visited {
@@ -225,6 +225,7 @@ a:active {
 }
 
 /*PSEUDO CLASS*/
+
 p.mayus:first-letter
 {
    float:left;

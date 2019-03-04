@@ -1,3 +1,4 @@
+/*CSS GRID*/
 * {box-sizing: border-box;}
 
     .wrapper {
@@ -60,13 +61,17 @@
      flex-direction: column;
    }
 }
+
+/*MENU*/
+
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #rgba(255, 237, 196, 0.856);
+  background-color: rgba(255, 237, 196, 0.856);
 }
+
 ul li a {
   display: block;
   color: #000;
@@ -77,7 +82,7 @@ ul li a:hover {
   background-color: rgba(198, 247, 206, 0.829);
   color: white;
 }
-
+/*ANOTACION*/
 blockquote {
   background: #009efa;
   border-left: 10px solid rgb(20, 92, 121);
@@ -96,6 +101,9 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+/*IMAGENES*/
+
 img {
   width: 100%;
   height: auto;
@@ -117,6 +125,8 @@ svg{
   width: 100%;
   height: auto;
 }
+
+/*GALERIA*/
 
 .galeria {
   height: calc( 118px + 3em);
@@ -156,6 +166,8 @@ svg{
   opacity: 1;
 }
 
+/*TABLAS y FORMULARIOS*/
+
 table 
 { 
 		width: 100%; 
@@ -182,4 +194,49 @@ td, th
 		padding: 6px; 
 		border: 1px solid whitesmoke; 
 		text-align: left; 
+}
+
+/*MULTIMEDIA*/
+
+video{
+  width: 100%
+}
+audio{
+  margin: 0 auto; 
+  display: table;
+}
+
+/*LINKS*/
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(212, 224, 99);
+}
+
+a:active {
+  color: rgb(145, 19, 134);
+}
+
+/*PSEUDO CLASS*/
+p.mayus:first-letter
+{
+   float:left;
+   color:black;
+   border:1px solid #999999;
+   font-size:80px;
+   line-height:60px;
+   padding:2px;
+   font-family:times;
+   margin-right: 5px;   
+}
+
+iframe{
+  width: 99%;
 }

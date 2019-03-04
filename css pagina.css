@@ -250,3 +250,26 @@ blockquote{
   font-family: 'Srisakdi', cursive;
   font-size: 150%;
 }
+
+/*tooltip*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(255, 139, 139);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 9px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*Animacion*/
